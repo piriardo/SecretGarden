@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:gravity="center"
+    tools:context="com.example.andres.secretgarden.CrearPerfil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+
+
+
+        <TextView
+            android:id="@+id/txtRutRegis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+        android:id="@+id/txtUserName"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su nombre de usuario"
+        android:background="#b7b9b3b3"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        />
+    <EditText
+        android:id="@+id/txtExpericencia"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cual es su experiencia"
+        android:background="#b7b9b3b3"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        />
+
+
+    <EditText
+        android:id="@+id/txtDescripcion"
+        android:drawableTint="@android:color/white"
+        android:drawablePadding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripcion personal"
+        android:inputType="textMultiLine"
+        android:background="#b7b9b3b3"
+        android:layout_marginTop="15dip"
+        android:padding="12dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"/>
+    <EditText
+        android:id="@+id/txtHobbie"
+        android:drawableTint="@android:color/white"
+        android:drawablePadding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="¿Cual es su hobbie?"
+        android:inputType="text"
+        android:background="#b7b9b3b3"
+        android:layout_marginTop="15dip"
+        android:padding="12dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"/>
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="#CE93D8"
+        android:text="Guardar perfil"
+        android:id="@+id/btnCrearPerfil"
+        android:textColor="@android:color/white" />
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#CE93D8"
+            android:text="Salir a inicio!"
+            android:id="@+id/btnIrPrincipal"
+            android:textColor="@android:color/white" />
+</LinearLayout>
+
+</LinearLayout>
